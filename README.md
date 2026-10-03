@@ -1,8 +1,8 @@
-# CAV — Agência de Performance & Marketing Digital
+# KAV — Agência de Performance & Marketing Digital
 
 > **Website Institucional de Alta Performance com Experiência 3D Interativa e Foco em PMEs (Pequenas e Médias Empresas)**
 
-Este repositório contém o código-fonte oficial do novo website institucional da **CAV**, desenvolvido com foco em velocidade de carregamento, conformidade rigorosa com **SEO do Google**, segurança sem dependências vulneráveis e uma narrativa visual em **3D com Three.js** que apresenta a jornada de aceleração de uma PME.
+Este repositório contém o código-fonte oficial do novo website institucional da **KAV**, desenvolvido com foco em velocidade de carregamento, conformidade rigorosa com **SEO do Google**, segurança sem dependências vulneráveis e uma narrativa visual em **3D com Three.js** que apresenta a jornada de aceleração de uma PME.
 
 ---
 
@@ -10,7 +10,7 @@ Este repositório contém o código-fonte oficial do novo website institucional 
 
 1. **Jornada 3D Interativa para PMEs:**
    - **Etapa 01: Estruturação & Análise de Mercado** — Visualização 3D de topografia em wireframe, radar de varredura e beacons de oportunidades de mercado.
-   - **Etapa 02: O Núcleo HyperCAV** — Laboratório tecnológico proprietário da CAV representado por um núcleo quântico pulsante com anéis orbitais e nuvem de partículas de dados analíticos.
+   - **Etapa 02: O Núcleo HyperKav** — Laboratório tecnológico proprietário da KAV representado por um núcleo quântico pulsante com anéis orbitais e nuvem de partículas de dados analíticos.
    - **Etapa 03: Escalada Gradual de Crescimento** — Vetor exponencial ascendente com pilares hexagonais e anéis de aceleração de tração contínua.
    - **Interatividade Total:** Arraste 3D no mouse/touchscreen, modo de rotação autônoma, troca instantânea de foco e fallback em Canvas 2D caso o WebGL não esteja disponível.
 
@@ -60,11 +60,11 @@ CAV/
 ├── css/
 │   └── style.css         # Folha de estilos responsiva com glassmorphism e neon
 ├── js/
-│   ├── three-scene.js    # Motor gráfico 3D da jornada e laboratório HyperCAV
+│   ├── three-scene.js    # Motor gráfico 3D da jornada e laboratório HyperKav
 │   └── main.js           # Orquestração da UI, simulador PME e captação de leads
 └── README.md             # Documentação técnica do projeto
 ```
 
 ---
 
-&copy; 2026 CAV. Todos os direitos reservados.
+&copy; 2026 KAV. Todos os direitos reservados.
