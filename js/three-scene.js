@@ -1,14 +1,14 @@
 /**
- * CAV Performance & Marketing Digital
+ * KAV Performance & Marketing Digital
  * Interactive 3D Journey Engine (Three.js with Canvas Fallback)
  * 
  * Stages:
  * 1: Estruturação & Análise de Mercado (Radar & Grid Scanner)
- * 2: Núcleo HyperCAV (Quantum Data Core & Particle Swarm)
+ * 2: Núcleo HyperKav (Quantum Data Core & Particle Swarm)
  * 3: Escalada Gradual de Crescimento (Exponential Helix & Ascending Milestone Vectors)
  */
 
-class CAV3DExperience {
+class KAV3DExperience {
   constructor(containerId) {
     this.container = document.getElementById(containerId);
     if (!this.container) return;
@@ -154,10 +154,10 @@ class CAV3DExperience {
     this.masterGroup.add(this.stage1Group);
 
     // ----------------------------------------------------
-    // STAGE 2: Núcleo HyperCAV (Quantum Data Core & Concentric Rings)
+    // STAGE 2: Núcleo HyperKav (Quantum Data Core & Concentric Rings)
     // ----------------------------------------------------
     this.stage2Group = new THREE.Group();
-    this.stage2Group.name = "Stage2_HyperCAVCore";
+    this.stage2Group.name = "Stage2_HyperKavCore";
 
     // 2.1 The Central Quantum Core (Icosahedron Wireframe + Inner Glow)
     const coreOuterGeo = new THREE.IcosahedronGeometry(2.4, 1);
@@ -328,7 +328,7 @@ class CAV3DExperience {
 
     const titles = {
       1: 'Ambiente 3D: Etapa 1 • Estruturação & Mercado',
-      2: 'Ambiente 3D: Etapa 2 • Núcleo HyperCAV (Dados)',
+      2: 'Ambiente 3D: Etapa 2 • Núcleo HyperKav (Dados)',
       3: 'Ambiente 3D: Etapa 3 • Escalada de Crescimento'
     };
     statusEl.textContent = titles[this.currentStage] || 'Ambiente 3D Ativo';
@@ -429,7 +429,7 @@ class CAV3DExperience {
       });
     }
 
-    // Rotate elements in Stage 2 (HyperCAV)
+    // Rotate elements in Stage 2 (HyperKav)
     if (this.stage2Group.scale.x > 0.05) {
       if (this.hyperCoreOuter) {
         this.hyperCoreOuter.rotation.x = time * 0.4;
@@ -514,7 +514,7 @@ class CAV3DExperience {
         ctx.lineTo(Math.cos(angle) * 100, Math.sin(angle) * 100);
         ctx.stroke();
       } else if (this.currentStage === 2) {
-        // HyperCAV Core
+        // HyperKav Core
         ctx.strokeStyle = '#9d4edd';
         ctx.beginPath();
         ctx.arc(0, 0, 70 + Math.sin(angle * 2) * 10, 0, Math.PI * 2);
@@ -538,4 +538,4 @@ class CAV3DExperience {
 }
 
 // Attach to window
-window.CAV3DExperience = CAV3DExperience;
+window.KAV3DExperience = KAV3DExperience;

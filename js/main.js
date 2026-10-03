@@ -1,11 +1,11 @@
 /**
- * CAV Marketing Digital & Performance
+ * KAV Marketing Digital & Performance
  * Core Main Interactions, 3D Orchestration, ROI Simulator & Lead Generator
  */
 
 document.addEventListener('DOMContentLoaded', () => {
   // 1. Initialize 3D Engine
-  const experience3D = new CAV3DExperience('canvas3DContainer');
+  const experience3D = new KAV3DExperience('canvas3DContainer');
 
   // 2. Stage Syncing (Tabs + Story Cards)
   const stageTabs = document.querySelectorAll('.stage-tab');
@@ -131,19 +131,19 @@ document.addEventListener('DOMContentLoaded', () => {
       const challenge = document.getElementById('leadChallenge').value.trim();
 
       // Format WhatsApp Message for direct conversion
-      const rawMessage = `Olá CAV! Gostaria de agendar uma Sessão Estratégica para minha empresa.\n\n` +
+      const rawMessage = `Olá KAV! Gostaria de agendar uma Sessão Estratégica para minha empresa.\n\n` +
         `👤 *Nome:* ${name}\n` +
         `🏢 *Empresa:* ${company}\n` +
         `📧 *E-mail:* ${email}\n` +
         `📱 *WhatsApp:* ${whatsapp}\n` +
         `💰 *Faturamento Atual:* ${revenue}\n` +
         `🎯 *Principal Desafio:* ${challenge || 'Acelerar vendas e previsibilidade'}\n\n` +
-        `Vim através do site e me interessei pelo Núcleo HyperCAV!`;
+        `Vim através do site e me interessei pelo Núcleo HyperKav!`;
 
-      // Official WhatsApp Number for CAV Agency
-      const phoneCav = '5511999999999'; // Can be adjusted in config
+      // Official WhatsApp Number for KAV Agency
+      const phoneKav = '5511999999999'; // Can be adjusted in config
       const encodedMsg = encodeURIComponent(rawMessage);
-      const whatsappUrl = `https://wa.me/${phoneCav}?text=${encodedMsg}`;
+      const whatsappUrl = `https://wa.me/${phoneKav}?text=${encodedMsg}`;
 
       if (directWhatsAppBtn) {
         directWhatsAppBtn.href = whatsappUrl;
@@ -155,7 +155,7 @@ document.addEventListener('DOMContentLoaded', () => {
         formSuccess.classList.add('active');
       }
 
-      console.log('Lead CAV gravado:', { name, company, email, whatsapp, revenue, challenge });
+      console.log('Lead KAV gravado:', { name, company, email, whatsapp, revenue, challenge });
     });
   }
 
