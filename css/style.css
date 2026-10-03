@@ -1,5 +1,5 @@
 /* ==========================================================================
-   CAV Performance Marketing - Stylesheet
+   KAV Performance Marketing - Stylesheet
    Modern, Ultra-responsive, Fast, High-Performance Design
    ========================================================================== */
 
@@ -791,13 +791,13 @@ h1, h2, h3, h4 {
   color: #cbd5e1;
 }
 
-/* HyperCAV Section */
-.hypercav-section {
+/* HyperKav Section */
+.hyperkav-section {
   padding: 100px 0;
   position: relative;
 }
 
-.hypercav-card {
+.hyperkav-card {
   background: linear-gradient(135deg, rgba(16, 24, 40, 0.9) 0%, rgba(12, 18, 30, 0.95) 100%);
   border: 1px solid rgba(0, 240, 255, 0.25);
   border-radius: var(--radius-xl);
@@ -807,7 +807,7 @@ h1, h2, h3, h4 {
   overflow: hidden;
 }
 
-.hypercav-card::after {
+.hyperkav-card::after {
   content: '';
   position: absolute;
   top: -100px;
@@ -818,14 +818,14 @@ h1, h2, h3, h4 {
   pointer-events: none;
 }
 
-.hypercav-grid {
+.hyperkav-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 48px;
   align-items: center;
 }
 
-.hypercav-badge {
+.hyperkav-badge {
   display: inline-flex;
   align-items: center;
   gap: 6px;
@@ -839,26 +839,26 @@ h1, h2, h3, h4 {
   margin-bottom: 20px;
 }
 
-.hypercav-text h2 {
+.hyperkav-text h2 {
   font-size: 2.4rem;
   margin-bottom: 20px;
 }
 
-.hypercav-text p {
+.hyperkav-text p {
   color: var(--text-secondary);
   font-size: 1rem;
   line-height: 1.7;
   margin-bottom: 18px;
 }
 
-.hypercav-list {
+.hyperkav-list {
   display: flex;
   flex-direction: column;
   gap: 14px;
   margin: 28px 0 36px;
 }
 
-.hypercav-list li {
+.hyperkav-list li {
   display: flex;
   align-items: flex-start;
   gap: 12px;
@@ -881,7 +881,7 @@ h1, h2, h3, h4 {
   margin-top: 3px;
 }
 
-.hypercav-interactive-panel {
+.hyperkav-interactive-panel {
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -1020,7 +1020,7 @@ h1, h2, h3, h4 {
   width: 35%;
 }
 
-.comparison-table .col-cav {
+.comparison-table .col-kav {
   color: var(--accent-cyan);
   width: 40%;
 }
@@ -1535,7 +1535,7 @@ h1, h2, h3, h4 {
     top: 0;
   }
 
-  .hypercav-grid {
+  .hyperkav-grid {
     grid-template-columns: 1fr;
   }
 
@@ -1593,7 +1593,7 @@ h1, h2, h3, h4 {
     grid-template-columns: 1fr;
   }
 
-  .hypercav-card {
+  .hyperkav-card {
     padding: 32px 20px;
   }
 
